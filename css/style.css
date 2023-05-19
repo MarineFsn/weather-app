@@ -1,35 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
-.container {
-  max-width: 400px;
+body, html {
+  height: 1vh;
+  margin: 0;
+  padding: 0;
+}
+body .container, html .container {
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   font-family: "Gloria Hallelujah", cursive;
 }
-
-.card {
+body .card, html .card {
   background-image: url(../Assets/nuage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 500px;
   margin: 0 auto;
 }
-.card #weatherForm {
+body .card #weatherForm, html .card #weatherForm {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card #weatherForm #cityInput {
-  width: 100%;
+body .card #weatherForm #cityInput, html .card #weatherForm #cityInput {
+  width: 50%;
   height: 40px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 10px;
 }
-.card #weatherForm #submitBtn {
+body .card #weatherForm #submitBtn, html .card #weatherForm #submitBtn {
   width: 20%;
   height: 40px;
   font-size: 16px;
@@ -39,8 +42,20 @@
   border-radius: 4px;
   cursor: pointer;
   font-family: "Gloria Hallelujah", cursive;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
-.card #weatherForm #submitBtn:hover {
+body .card #weatherForm #submitBtn:hover, html .card #weatherForm #submitBtn:hover {
   background-color: #e4ce96;
+}
+body img, html img {
+  height: 150px;
+  width: 300px;
+  border-radius: 20px;
+}
+body #temperatureChartContainer, html #temperatureChartContainer {
+  background-color: antiquewhite;
+  opacity: 0.7;
+  border-radius: 15px;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
