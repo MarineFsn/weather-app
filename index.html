@@ -6,21 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <script defer src="scripts.js"></script>
+    <script defer src="./JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Weather app</title>
 </head>
-
-<body>
-
-    <div class="container">
-        <h1>Weather App</h1>
-        <form id="weatherForm">
-            <input type="text" id="cityInput" placeholder="Enter a city">
-            <button type="submit" id="submitBtn">Submit</button>
-        </form>
-        <div id="weatherData"></div>
-    </div>
-
-</body>
-
+    <body>
+        <div class="container card">
+            <h1>Weather App</h1>
+            <form id="weatherForm">
+                <input type="text" id="cityInput" placeholder="Enter a city">
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+            <div id="weatherData"></div>
+        </div>
+    </body>
 </html>

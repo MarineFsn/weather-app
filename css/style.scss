@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.container__title {
+    font-size: 24px;
+}
+
+.container__input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.container__button {
+    height: 30px;
+}
+
+.container__weather-data {
+    margin-top: 20px;
+}
+
+.card {
+    background-image: url(../Assets/nuage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card__content {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
