@@ -42,5 +42,18 @@ function displayWeather(data) {
       month: "numeric",
       year: "numeric",
     });
-  });
-}
+     // Check if it's a new day
+     if (forecastDate !== currentDate) {
+        currentDate = forecastDate;
+  
+        const day = date.toLocaleDateString("fr-FR", { weekday: "long" });
+        const temperature = forecast.main.temp;
+        const description = forecast.weather[0].description;
+  
+        const weatherInfo = document.createElement("p");
+        weatherInfo.textContent = `${day}, ${forecastDate}: ${temperature}°C, ${description}`;
+        weatherData.appendChild(weatherInfo);
+      }
+    });
+  };
+
