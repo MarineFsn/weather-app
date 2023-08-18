@@ -17,6 +17,7 @@ Temperature Graph: Use Chart.js for an interactive graph of temperature fluctuat
 End Goal:
 Create a practical web app, blending HTTP skills, DOM manipulation, and data aggregation, to reclaim time and spark more engaging conversations
 
+<img src="">
 
 ## 👨‍💻 Team Members
 
